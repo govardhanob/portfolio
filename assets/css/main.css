@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lugrasimo&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lugrasimo&family=Madimi+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jersey+25&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lugrasimo&family=Madimi+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+    padding: 0;
+    background-color: #262626;
+}
+
+canvas {
+    display: block;
+}
+
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Set height to full viewport height */
+    background-color: #262626;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    #particles-js {
+        height: 100vh; /* Set height to full viewport height on mobile devices */
+    }
+}
+
+.name {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* Position the .name div absolutely within the #particles-js container */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the .name div */
+    font-family: bebas neue;
+}
+.nav-item{
+    font-family: "Madimi One", sans-serif;
+
+    font-weight: 400;
+    font-style: normal;
+}
+
+#social>svg:hover{
+   fill: white;
+    
+}
+#social{
+    margin: 0 2px;
+    padding-bottom: 5px; 
+    color: white;
+    
+    transition: fill 0.3s ease;
+    text-decoration: none;
+    font-size: 13px;
+}
+#heading1{
+    font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+#paragraph1{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 16px;
+    
+}
+@media only screen and (max-width: 500px) {
+    #heading1{
+        font-size: 40px;
+    }
+}
+#about{
+    background-color: #262626;
+    border-radius: 13% 11% 25% 25% / 25% 25% 0% 0%;
+    color: white;
+}
+#image1{
+    border-radius: 25% 25% 25% 25% / 25% 25% 25% 25%;
+    height: 450px;
+    width: 450px;
+}
+@media only screen and (max-width: 500px) {
+    
+    #image1{
+        height: 200px;
+       width: 200px;
+    }
+}
+#heading2{
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+#paragraph2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #C7C8CC;
+}
+
+#project{
+    background-color: #262626;
+    
+    margin: 0;
+}
+.skills{
+    display: flex;
+    background-color: #262626;
+    flex-direction: row;
+    gap: 60px;
+    margin: 20px;
+    color: white;
+    flex-wrap: wrap;
+    
+   
+}
+#python{
+    height: 40px;
+    width: 40px;
+
+  }
+
+
+
+.iconitems > h2{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 16px;
+    
+}
+#heading3,hr{
+    color: #C7C8CC;
+    margin: 20px;
+}
+#paragraph3{
+    color: #C7C8CC;
+    margin: 20px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#project1{
+    background-color: #262626;
+    color: #C7C8CC;
+    border: 1px solid #C7C8CC;
+}
+.card-body{
+    background-color: #262626;
+    color: #C7C8CC;
+}
+#btn1{
+    color: #C7C8CC;
+    border: 2px solid #C7C8CC;
+    height: 30px;
+    width: 100px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+#footer1{
+    color: #C7C8CC;
+    margin: 20px;
+    font-size: 16px;
+}
+#email{
+    color: #C7C8CC;
+}
+#email:hover{
+    color: white;
+}
